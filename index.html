@@ -31,7 +31,7 @@
         margin-top: 110px; /* Adjust this value to leave space for the welcome page */
     }
     .navbar {
-        background-color: #222;
+        background-color: #999999;
         overflow: hidden;
         color: white;
     }
@@ -318,8 +318,6 @@
     // Load existing entries from localStorage
     window.onload = function() {
         loadEntries();
-        setInterval(updateClock, 1000); // Update clock every second
-        updateTime(); // Update time immediately
     };
 
     function updateTime() {
